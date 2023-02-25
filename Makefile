@@ -6,7 +6,7 @@ print: $(FILES)
 exper:
         @echo "hi there this is $(.newline)\
                 a multiline\
-                text executing ruke $@"
+                text executing rule $@"
 
 compile: compile.c
         cc $? -o $@
